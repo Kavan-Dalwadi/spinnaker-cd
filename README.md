@@ -23,7 +23,7 @@ To implement the instructions in this post, you will need the following accounts
 
 
 ### Running petclinic locally
-Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
+Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/).. You can build a jar file and run it from the command line:
 
 
 ```
