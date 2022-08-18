@@ -54,7 +54,7 @@ pipeline {
             steps {
                 echo '=== Delete the local docker images ==='
                 sh("docker rmi -f kdalwadi28/spinnaker-jenkins:latest || :")
-                sh("docker rmi -f kdalwadi28/spinnaker-jenkins:$SHORT_COMMIT || :")
+                // sh("docker rmi -f kdalwadi28/spinnaker-jenkins:$SHORT_COMMIT || :")
             }
         }
     }
