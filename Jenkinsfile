@@ -37,6 +37,10 @@ pipeline {
             when {
                 branch 'master'
             }
+            input {
+                message "Should we continue?"
+                ok "Yes, we should."
+            }
             steps {
                 echo '=== Pushing Petclinic Docker Image ==='
                 sh("docker push kdalwadi28/spinnaker-jenkins")
