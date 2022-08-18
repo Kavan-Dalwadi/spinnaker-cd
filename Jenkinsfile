@@ -27,9 +27,10 @@ pipeline {
             }
             steps {
                 echo '=== Building Petclinic Docker Image ==='
-                script {
-                    app = docker.build("spinnaker-jenkins")
-                }
+                sh("docker build -t kdalwadi28/spinnaker-jenkins .")
+                // script {
+                //     app = docker.build("spinnaker-jenkins")
+                // }
             }
         }
         stage('Push Docker Image') {
